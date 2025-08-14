@@ -8,7 +8,7 @@ import CartButton from "@/components/CartButton";
 
 export default function Index() {
     return (
-        <SafeAreaView className="flex-1 bg-white">
+        <SafeAreaView className="flex-1 mt-10 bg-white">
             <FlatList
                 data={offers}
                 renderItem={({ item, index }) => {
